@@ -1,0 +1,28 @@
+
+.fenlei{
+    width:100%;
+    /*height:600px;*/
+    /*background: #ccc;*/
+}
+
+.fen-fl{
+    width:700px;
+    /*height:500px;*/
+    /*background: red;*/
+}
+
+.fenlei h2{
+    font-size:20px;
+}
+
+.ul li{
+    float: left;
+    width:330px;
+    height:230px;
+    /*background: green;*/
+    margin-right:15px;
+    margin-bottom:10px;
+
+}
+
+

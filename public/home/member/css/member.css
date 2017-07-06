@@ -1,0 +1,50 @@
+body{
+    background: #F5F8FA !important;
+}
+
+.mt20{
+    margin-top:20 ;
+}
+.mt30{
+    margin-top:30 ;
+}
+.mian{
+    border: solid 1px #ccc;
+    width: 800px;
+    min-height: 400px;
+    margin-top:20px ;
+}
+p{
+    margin:10px  10px ;
+}
+#user_nva{
+    border: 1px solid #ccc;
+}
+
+
+#user_nva li {
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    color: #B4B48B;
+}
+.width{
+    width: 500px !important;
+}
+.width1{
+    width: 300px !important;
+}
+
+
+.code1{
+    position: relative;
+}
+.zz{
+    position: absolute;
+    top:29px;
+    left:386px;
+    height: 36px !important;
+}

@@ -1,0 +1,79 @@
+.score{
+    width:745px;
+    height:1475px;
+    /*border:1px solid #000;*/
+    margin-top:10px;
+}
+.score .head{
+    width: 745px;
+    border:1px solid #ccc;
+    text-align:center;
+    height: 50px;
+    line-height:50px;
+    color: #FFF;
+    background-color:#ccc;
+}
+.head h3{
+    font-size:30px;
+}
+.score .zong{
+    width:745px;
+    /*height:1035px;*/
+    /*border:1px solid #000000;*/
+}
+.score .zongg{
+    width:745px;
+    height:100px;
+    border:1px solid #ccc;
+    /*background-color:#ccc;*/
+}
+.zong .dan{
+    width:745px;
+    height:100px;
+    border:1px solid #ccc;
+    margin-top:5px;
+    /*background-color:#a3a2a2;*/
+}
+.zong .ping{
+    text-align:center;
+    font-size:15px;
+    margin-left:305px;
+}
+.dan .limg{
+    width:100px;
+    height:100px;
+    /*border:1px solid #000;*/
+    float:left;
+}
+.dan .limg img{
+    margin-top:15px;
+    margin-left:22px;
+}
+.dan .limg h5{
+    text-align:center;
+}
+.dan .pinglun{
+    width:620px;
+    height:100px;
+    /*border:1px solid #000;*/
+    float:right;
+}
+.dan .pinglun h3{
+    width:600px;
+    margin-top:10px;
+    height:67px;
+    border:1px solid #ccc;
+    margin-left:5px;
+    text-align: center;
+    line-height: 67px;
+}
+.woa{
+    text-align:center;
+}
+.woa .text-but{
+    width:43px;
+    height:242px;
+    /*border:1px solid #000;*/
+    text-align:center;
+    float:right;
+}
