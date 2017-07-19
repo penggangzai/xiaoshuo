@@ -53,7 +53,11 @@ Route::group(['prefix' => 'member','middleware' =>'rig'], function () {
     //跟换图片
     Route::post('/img','Home\Member\CollectionController@img');
 
+
+
+
 });
+Route::get('member/addvo/{id}','Home\Member\CollectionController@addvo');
 
 //轮播图
 Route::group(['prefix' => 'admin', 'middleware' => 'role'], function () {

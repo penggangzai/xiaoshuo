@@ -36,7 +36,7 @@
                             <div class="ops" id="J_ops">
                                 <a href="{{url('home/withindex')}}/{{$book->id}}" class="btn btn-main-fill" id="J_readNow" target="_blank" style="height: 45px">立即阅读</a>
                                 <a href="{{url('member/add').'/'.$book->id}}" class="btn btn-main-stroke j-addSub" id="J_addSub" style="height: 45px">收藏书籍</a>
-                            
+                                <a href="{{url('member/addvo').'/'.$book->id}}" class="btn btn-main-stroke j-addSub" id="J_addSub" style="height: 45px">投票书籍</a>
                                 <a href="{{url('home/listchapter')}}/{{$book->id}}" class="btn btn-main-stroke j-addSub" id="J_addSub" style="height: 45px">查看章节</a>
                             </div>
                         </div>

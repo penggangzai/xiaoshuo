@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Home\Member;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redis;
 
 class CollectionController extends Controller
 {
@@ -105,5 +106,13 @@ class CollectionController extends Controller
         return back();
     }
     return back()->with('error','请稍后再试试');
+    }
+
+    public function addvo(Request $request,$id)
+    {
+//        Redis::set('a',122);
+        Redis::set('name', 'Taylor');
+//        $a = Redis::get('a');
+//        dd($a);
     }
 }
